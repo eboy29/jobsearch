@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seek for a job</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+
+</head>
+<body>
+    <header class="section-header">
+
+        <nav class="navbar navbar-dark navbar-expand p-0 bg-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav d-none d-md-flex mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Cash On Delivery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Free Delivery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Cash Backs</a></li>
+            </ul>
+            <ul class="navbar-nav d-flex align-items-center">
+                <li class="nav-item">
+                    <div class="d-flex flex-row">
+                        <img src="https://i.imgur.com/EYFtR83.jpg" class="rounded-circle" width="30">
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link d-flex align-items-center" data-abc="true"><span>Nantano M</span><i class='bx bxs-chevron-down'></i></a>
+                </li>
+                
+            </ul> <!-- list-inline //  -->
+          </div> <!-- navbar-collapse .// -->
+         <!-- container //  -->
+        </nav> <!-- header-top-light.// -->
+        
+        <section class="header-main border-bottom bg-white">
+            <div class="container-fluid">
+               <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
+                   <div class="col-md-2">
+                       <img  class="d-none d-md-flex" src="https://i.imgur.com/R8QhGhk.png" width="100">
+                   </div>
+                   <div class="col-md-8">
+                <div class="d-flex form-inputs">
+                    <label for="searchInput">Search for a job:</label>
+                    <input type="text" id="searchInput" onkeyup="searchJobs()" placeholder="Enter a job title...">
+                </div>
+                   </div>
+                   
+                   <div class="col-md-2">
+                       <div class="d-flex d-none d-md-flex flex-row align-items-center">
+                           <span class="shop-bag"><i class='bx bxs-shopping-bag'></i></span>
+                           <div class="d-flex flex-column ms-2">
+                               <span class="qty">1 Product</span>
+                               <span class="fw-bold">$27.90</span>
+                           </div>    
+                       </div>           
+                   </div>
+               </div>
+            </div> 
+        </section>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand d-md-none d-md-flex" href="#">Categories</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="computerjob.html">Computer Job</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="graphic.html">Graphic Design</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Electronic.html">Electronics</a>
+                </li>
+                
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </header>
+
+        <div>
+    
+<ul id="jobList">
+  <li>Nag aayos ng electric fan</li>
+  <li>Aircon nag aayos</li>
+  <li>nag aayos ng sigarilyo</li>
+  <li>nag aayos ng ref</li>
+  <li>nag aayos ng computer</li>
+  <li>nag aayos ng talong</li>
+  <li>Human Resources Manager</li>
+  <li>Sales Representative</li>
+  <li>Customer Service Representative</li>
+  <li>Project Manager</li>
+</ul>
+
+        </div>
+
+      
+
+                
+
+            <script src="js/comp.js"></script>
+        
+</body>
+</html>
